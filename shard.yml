@@ -1,0 +1,13 @@
+name: myapp
+version: 0.1.0
+
+authors:
+  - Siegfried Ehret <siegfried@ehret.me>
+
+targets:
+  myapp:
+    main: src/myapp.cr
+
+crystal: 0.34.0
+
+license: MIT
