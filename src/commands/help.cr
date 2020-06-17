@@ -5,7 +5,10 @@ module Myapp
         puts <<-HELP
       myapp <command> [<options>]
 
-      TODO
+      Available commands:
+
+        add name=<name> email=<email>   To add a contact
+        show <partial name>             To list matching contacts
      HELP
 
         exit
