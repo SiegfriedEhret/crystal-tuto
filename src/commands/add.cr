@@ -1,3 +1,4 @@
+require "emoji"
 require "../lib/config"
 require "../structs/*"
 
@@ -16,7 +17,7 @@ module Myapp
 
       def add(name : String | Nil, emails : Array(String))
         if name.nil?
-          puts "We need a name!"
+          puts Emoji.emojize(":warning: We need a name!")
         else
           @config.add_contact Contact.new(name.split("=")[1], emails)
         end

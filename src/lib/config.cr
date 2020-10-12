@@ -3,7 +3,7 @@ require "../structs/list"
 
 module Myapp
   class Config
-    @@config_path : Path = Path.home / "myapp.yaml"
+    @@config_path : Path = Path[ENV.fetch("MYAPP_PATH", Path.home.to_s)] / "myapp.yaml"
     property list : List
 
     def initialize

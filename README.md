@@ -6,6 +6,7 @@ Voici les articles et les étiquettes associées à chaque partie:
 
 - [Première partie](https://ehret.me/fr/crystal-01.html): [partie-01](https://github.com/SiegfriedEhret/crystal-tuto/releases/tag/partie-01)
 - [Deuxième partie](https://ehret.me/fr/crystal-02.html): [partie-02](https://github.com/SiegfriedEhret/crystal-tuto/releases/tag/partie-02)
+- [Troisième partie](https://ehret.me/fr/crystal-03.html): [partie-03](https://github.com/SiegfriedEhret/crystal-tuto/releases/tag/partie-03)
 
 ## Contributing
 
